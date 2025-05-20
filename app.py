@@ -6,6 +6,7 @@ import plotly.express as px
 import pandas as pd
 import os
 import sys
+import subprocess
 
 
 from helper import most_common_words, daily_timeline
@@ -357,8 +358,17 @@ if uploaded_file is not None:
                 st.info("No emojis found to display.")
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8501))  # get PORT from env, default to 8501 if not set
-    # Run Streamlit as a subprocess with the correct port and flags
-    os.system(f"streamlit run {sys.argv[0]} --server.port={port} --server.enableCORS=false --server.enableXsrfProtection=false")
+    port = int(os.environ.get("PORT", 8501))
+    args = [
+        "streamlit",
+        "run",
+        sys.argv[0],
+        f"--server.port={port}",
+        "--server.enableCORS=false",
+        "--server.enableXsrfProtection=false"
+    ]
+    # This replaces the current process with Streamlit, avoiding warnings
+    os.execvp("streamlit", args)
+
 
 
