@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import pandas as pd
-import os
-import sys
-import subprocess
+
 
 
 from helper import most_common_words, daily_timeline
@@ -357,18 +355,6 @@ if uploaded_file is not None:
             else:
                 st.info("No emojis found to display.")
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8501))
-    args = [
-        "streamlit",
-        "run",
-        sys.argv[0],
-        f"--server.port={port}",
-        "--server.enableCORS=false",
-        "--server.enableXsrfProtection=false"
-    ]
-    # This replaces the current process with Streamlit, avoiding warnings
-    os.execvp("streamlit", args)
 
 
 
