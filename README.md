@@ -40,7 +40,7 @@ This app allows users to upload exported WhatsApp chats (in 12-hour format) and 
 
 ## 🚀 Live Demo
 
-🔗 [Check out the live app]([https://whatsappchatanalysis-ycnqhcm3v2pfswea78idkp.streamlit.app/](https://whatsappchatanalysis-ycnqhcm3v2pfswea78idkp.streamlit.app/))
+🔗 [**Check out the live app here**](https://whatsappchatanalysis-ycnqhcm3v2pfswea78idkp.streamlit.app/)
 
 ## 🛠 Tech Stack
 
@@ -64,7 +64,8 @@ Ensure your exported chat follows this format:
 ## 🧑‍💻 Author
 
 **Ankush Mitra**  
-📧 ankush.mitra4u@gmail.com  
-🔗 [LinkedIn](www.linkedin.com/in/ankush-mitra-7277bb312)  
-🐙 [GitHub](https://github.com/your-username)
+📧 [Email](mailto:ankush.mitra4u@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/ankush-mitra-7277bb312)  
+🐙 [GitHub](https://github.com/ankurious)
+
 
