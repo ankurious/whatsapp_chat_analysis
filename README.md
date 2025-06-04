@@ -38,10 +38,12 @@ This app allows users to upload exported WhatsApp chats (in 12-hour format) and 
 3. Upload it in the web app.
 4. View your chat analysis across multiple dimensions!
 
+
 ## 🚀 Live Demo
 
-https://whatsappchatanalysis-ycnqhcm3v2pfswea78idkp.streamlit.app/
+🔗 [**Check out the live app here**](https://whatsappchatanalysis-ycnqhcm3v2pfswea78idkp.streamlit.app/)
 
+(Copy the link and open in new tab)
 
 ## 🛠 Tech Stack
 
